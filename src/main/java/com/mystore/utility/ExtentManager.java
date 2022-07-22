@@ -23,7 +23,7 @@ public class ExtentManager {
 		
 		String timeStamp = new SimpleDateFormat("yyyy.MM.dd.HH.mm.ss").format(new Date());
 		String reportName = "Test-Report-"+timeStamp+".html";
-		htmlReporter = new ExtentHtmlReporter(System.getProperty("user.dir")+ "/test-output/ExtentReport/" + reportName);
+		htmlReporter = new ExtentHtmlReporter(System.getProperty("user.dir")+ "/test-output/" + reportName);
 		
 		htmlReporter.loadXMLConfig(System.getProperty("user.dir") + "/extent-config.xml");
 		//htmlReporter.config().setDocumentTitle("Automation Test Report");

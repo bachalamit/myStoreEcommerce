@@ -1,7 +1,6 @@
-
-
 <!DOCTYPE html>
 <html>
+
 <head>
 	<meta charset='UTF-8' /> 
 	<meta name='description' content='' />
@@ -11,7 +10,7 @@
 	
 	<link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:400,600' rel='stylesheet' type='text/css' />
 	<link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
-	<link href='http://cdn.rawgit.com/extent-framework/extent-github-cdn/b65cd69/v3html/css/extent.css' type='text/css' rel='stylesheet' />
+	<link href='http://cdn.rawgit.com/extent-framework/extent-github-cdn/191775216e8ce53c38791eb07a1d2f31d0ae11b5/v3html/css/extent.css' type='text/css' rel='stylesheet' />
 	
 	<title>MyStoreProject</title>
 
@@ -54,7 +53,7 @@
 		<!-- nav-right -->
 		<ul id='nav-mobile' class='right hide-on-med-and-down nav-right'>
 			<a href='#!'>
-			<span class='label blue darken-3 suite-start-time'>Jul 21, 2022 09:38:40 PM</span>
+			<span class='label blue darken-3 suite-start-time'>Jul 22, 2022 12:46:08 PM</span>
 			</a>
 		</ul>
 	</div>
@@ -70,6 +69,7 @@
 				</a>
 				<ul id='tests-toggle' class='dropdown-content'>
 										<li status='pass'><a href='#!'>Pass <i class='material-icons green-text'>check_circle</i></a></li>
+					<li status='fail'><a href='#!'>Fail <i class='material-icons red-text'>cancel</i></a></li>
 					<li class='divider'></li>
 					<li status='clear' clear='true'><a href='#!'>Clear Filters <i class='material-icons'>clear</i></a></li>
 				</ul>
@@ -104,46 +104,46 @@
 		</div>
 	</section>
 <div id='test-view-charts' class='subview-full'>
-    <div id='charts-row' class='row nm-v nm-h'>
-        <div class='col s12 m12 l12 np-h'>
-            <div class='card-panel nm-v'>
-                <div class='left panel-name'>Tests</div>
-                <div class='chart-box' style="max-height:94px;">
-                    <canvas id='parent-analysis' width='90' height='70'></canvas>
-                </div>
-                <div class='block text-small'>
-                    <span class='tooltipped' data-position='top' data-tooltip='100%'><span class='strong'>1</span> test(s) passed</span>
-                </div>
-                <div class='block text-small'>
-                    <span class='strong tooltipped' data-position='top' data-tooltip='0%'>0</span> test(s) failed, <span class='strong tooltipped' data-position='top' data-tooltip='0%'>0</span> others
-                </div>
-            </div>
-        </div>
-    </div>
-    <div id="timeline-chart" class="row nm-v nm-h">
-        <div class="col s12 m12 l12 np-h">
-            <div class="card-panel">
-                <div class='left panel-name'>Timeline (seconds)</div>
-                <div class="chart-box" style="width:98%;max-height:145px;">
-                    <canvas id="timeline" height="120"></canvas>
-                </div>
-            </div>
-        </div>
-    </div>
+	<div id='charts-row' class='row nm-v nm-h'>
+		<div class='col s12 m6 l6 np-h'>
+			<div class='card-panel nm-v'>
+				<div class='left panel-name'>Tests</div>
+				<div class='chart-box' style="max-height:94px;">
+					<canvas id='parent-analysis' width='100' height='80'></canvas>
+				</div>
+				<div class='block text-small'>
+					<span class='tooltipped' data-position='top' data-tooltip='75%'><span class='strong'>3</span> test(s) passed</span>
+				</div>
+				<div class='block text-small'>
+					<span class='strong tooltipped' data-position='top' data-tooltip='25%'>1</span> test(s) failed, <span class='strong tooltipped' data-position='top' data-tooltip='0%'>0</span> others
+				</div>
+			</div>
+		</div>
+	</div>
+	<div id="timeline-chart" class="row nm-v nm-h">
+		<div class="col s12 m12 l12 np-h">
+			<div class="card-panel">
+				<div class='left panel-name'>Timeline (seconds)</div>
+				<div class="chart-box" style="width:98%;max-height:145px;">
+					<canvas id="timeline" height="120"></canvas>
+				</div>
+			</div>
+		</div>
+	</div>
 </div>	<div class='subview-left left'>
 		<div class='view-summary'>
 			<ul id='test-collection' class='test-collection'>
 				<li class='test displayed active  pass' status='pass' bdd='false' test-id='1'>
 					<div class='test-heading'>
-						<span class='test-name'>productAvaliablityTest</span>
-						<span class='test-time'>Jul 21, 2022 09:39:04 PM</span>
+						<span class='test-name'>VerifyTitle</span>
+						<span class='test-time'>Jul 22, 2022 12:46:19 PM</span>
 						<span class='test-status right pass'>pass</span>
 					</div>
 					<div class='test-content hide'>
 <div class='test-time-info'>
-	<span class='label start-time'>Jul 21, 2022 09:39:04 PM</span>
-	<span class='label end-time'>Jul 21, 2022 09:39:17 PM</span>
-	<span class='label time-taken grey lighten-1 white-text'>0h 0m 13s+286ms</span>
+	<span class='label start-time'>Jul 22, 2022 12:46:19 PM</span>
+	<span class='label end-time'>Jul 22, 2022 12:46:19 PM</span>
+	<span class='label time-taken grey lighten-1 white-text'>0h 0m 0s+57ms</span>
 </div>
 <div class='test-steps'>
 	<table class='bordered table-results'>
@@ -157,10 +157,131 @@
 		<tbody>
 			<tr class='log' status='pass'>
 				<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
-				<td class='timestamp'>9:39:17 PM</td>
+				<td class='timestamp'>12:46:19 PM</td>
 				<td class='step-details'>
-						Pass Test case is: productAvaliablityTest
+						Pass Test case is: VerifyTitle
 					
+				</td>
+			</tr>
+		</tbody>
+	</table>
+</div>
+					</div>
+				</li>
+				<li class='test displayed active  pass' status='pass' bdd='false' test-id='2'>
+					<div class='test-heading'>
+						<span class='test-name'>VerifymyStoreLogo</span>
+						<span class='test-time'>Jul 22, 2022 12:46:30 PM</span>
+						<span class='test-status right pass'>pass</span>
+					</div>
+					<div class='test-content hide'>
+<div class='test-time-info'>
+	<span class='label start-time'>Jul 22, 2022 12:46:30 PM</span>
+	<span class='label end-time'>Jul 22, 2022 12:46:31 PM</span>
+	<span class='label time-taken grey lighten-1 white-text'>0h 0m 0s+110ms</span>
+</div>
+<div class='test-steps'>
+	<table class='bordered table-results'>
+		<thead>
+			<tr>
+				<th>Status</th>
+				<th>Timestamp</th>
+				<th>Details</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr class='log' status='pass'>
+				<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+				<td class='timestamp'>12:46:31 PM</td>
+				<td class='step-details'>
+						Pass Test case is: VerifymyStoreLogo
+					
+				</td>
+			</tr>
+		</tbody>
+	</table>
+</div>
+					</div>
+				</li>
+				<li class='test displayed active  pass' status='pass' bdd='false' test-id='3'>
+					<div class='test-heading'>
+						<span class='test-name'>loginTest</span>
+						<span class='test-time'>Jul 22, 2022 12:46:42 PM</span>
+						<span class='test-status right pass'>pass</span>
+					</div>
+					<div class='test-content hide'>
+<div class='test-time-info'>
+	<span class='label start-time'>Jul 22, 2022 12:46:42 PM</span>
+	<span class='label end-time'>Jul 22, 2022 12:46:52 PM</span>
+	<span class='label time-taken grey lighten-1 white-text'>0h 0m 10s+67ms</span>
+</div>
+<div class='test-steps'>
+	<table class='bordered table-results'>
+		<thead>
+			<tr>
+				<th>Status</th>
+				<th>Timestamp</th>
+				<th>Details</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr class='log' status='pass'>
+				<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+				<td class='timestamp'>12:46:52 PM</td>
+				<td class='step-details'>
+						Pass Test case is: loginTest
+					
+				</td>
+			</tr>
+		</tbody>
+	</table>
+</div>
+					</div>
+				</li>
+				<li class='test displayed active  fail' status='fail' bdd='false' test-id='4'>
+					<div class='test-heading'>
+						<span class='test-name'>loginTest</span>
+						<span class='test-time'>Jul 22, 2022 12:47:01 PM</span>
+						<span class='test-status right fail'>fail</span>
+					</div>
+					<div class='test-content hide'>
+<div class='test-time-info'>
+	<span class='label start-time'>Jul 22, 2022 12:47:01 PM</span>
+	<span class='label end-time'>Jul 22, 2022 12:47:20 PM</span>
+	<span class='label time-taken grey lighten-1 white-text'>0h 0m 19s+348ms</span>
+</div>
+<div class='test-steps'>
+	<table class='bordered table-results'>
+		<thead>
+			<tr>
+				<th>Status</th>
+				<th>Timestamp</th>
+				<th>Details</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr class='log' status='fail'>
+				<td class='status fail' title='fail' alt='fail'><i class='material-icons'>cancel</i></td>
+				<td class='timestamp'>12:47:20 PM</td>
+				<td class='step-details'>
+						<span class='badge white-text red'>loginTest - Test Case Failed</span>
+					
+				</td>
+			</tr>
+			<tr class='log' status='fail'>
+				<td class='status fail' title='fail' alt='fail'><i class='material-icons'>cancel</i></td>
+				<td class='timestamp'>12:47:20 PM</td>
+				<td class='step-details'>
+						<span class='badge white-text red'>java.lang.AssertionError: expected [http://automationpractice.com/index.php?controller=my-account] but found [http://automationpractice.com/index.php?controller=authentication] - Test Case Failed</span>
+					
+				</td>
+			</tr>
+			<tr class='log' status='fail'>
+				<td class='status fail' title='fail' alt='fail'><i class='material-icons'>cancel</i></td>
+				<td class='timestamp'>12:47:20 PM</td>
+				<td class='step-details'>
+						ScreenShot is Attached
+					<img class='r-img' onerror='this.style.display="none"' data-featherlight='http://localhost:8082/job/MyStoreProject/ws/MyStoreProject/ScreenShots/loginTest_2022.07.22.12.47.20.png' src='http://localhost:8082/job/MyStoreProject/ws/MyStoreProject/ScreenShots/loginTest_2022.07.22.12.47.20.png' data-src='http://localhost:8082/job/MyStoreProject/ws/MyStoreProject/ScreenShots/loginTest_2022.07.22.12.47.20.png'>
 				</td>
 			</tr>
 		</tbody>
@@ -174,16 +295,17 @@
 	<!-- subview left -->
 	<div class='subview-right left'>
 		<div class='view-summary'>
-			<div id='step-filters' class="right sr-filters">
-				<a class="btn-floating waves-effect waves-light green" status="pass" alt="pass" title="pass"><i class="material-icons">check_circle</i></a>
-				<a class="btn-floating waves-effect waves-light red" status="fail" alt="fail" title="fail"><i class="material-icons">cancel</i></a>
-				<a class="btn-floating waves-effect waves-light red darken-4" status="fatal" alt="fatal" title="fatal"><i class="material-icons">cancel</i></a>
-				<a class="btn-floating waves-effect waves-light pink text-lighten-1" status="error" alt="error" title="error"><i class="material-icons">error</i></a>
-				<a class="btn-floating waves-effect waves-light orange" alt="warning" status="warning" title="warning"><i class="material-icons">warning</i></a>
-				<a class="btn-floating waves-effect waves-light teal" status="skip" alt="skip" title="skip"><i class="material-icons">redo</i></a>
-				<a class="btn-floating waves-effect waves-light grey" status="clear" alt="Clear filters" title="Clear filters"><i class="material-icons">clear</i></a>
-			</div>
 			<h5 class='test-name'></h5>
+			<div id='step-filters' class="right">
+				<span class="blue-text" status="info" alt="info" title="info"><i class="material-icons">info_outline</i></span>
+				<span class="green-text" status="pass" alt="pass" title="pass"><i class="material-icons">check_circle</i></span>
+				<span class="red-text" status="fail" alt="fail" title="fail"><i class="material-icons">cancel</i></span>
+				<span class="red-text text-darken-4" status="fatal" alt="fatal" title="fatal"><i class="material-icons">cancel</i></span>
+				<span class="pink-text text-lighten-1" status="error" alt="error" title="error"><i class="material-icons">error</i></span>
+				<span class="orange-text" alt="warning" status="warning" title="warning"><i class="material-icons">warning</i></span>
+				<span class="teal-text" status="skip" alt="skip" title="skip"><i class="material-icons">redo</i></span>
+				<span status="clear" alt="Clear filters" title="Clear filters"><i class="material-icons">clear</i></span>
+			</div>
 		</div>
 	</div>
 	<!-- subview right -->
@@ -196,7 +318,7 @@
 			<div class='col s2'>
 				<div class='card-panel r'>
 					Tests
-					<div class='panel-lead'>1</div>
+					<div class='panel-lead'>4</div>
 				</div>
 			</div>
 			<div class='col s2'>
@@ -208,19 +330,19 @@
 			<div class='col s2'>
 				<div class='card-panel r'>
 					Start
-					<div class='panel-lead'>Jul 21, 2022 09:38:40 PM</div>
+					<div class='panel-lead'>Jul 22, 2022 12:46:08 PM</div>
 				</div>
 			</div>
 			<div class='col s2'>
 				<div class='card-panel r'>
 			 		End
-			 		<div class='panel-lead'>Jul 21, 2022 09:39:17 PM</div>
+			 		<div class='panel-lead'>Jul 22, 2022 12:46:08 PM</div>
 				</div>
 			</div>
 			<div class='col s2'>
 				<div class='card-panel r'>
 					Time Taken
-					<div class='panel-lead'>0h 0m 37s+509ms</div>
+					<div class='panel-lead'>0h 0m 0s+0ms</div>
 				</div>
 			</div>
 			<div class='col s4'>
@@ -263,15 +385,14 @@
 		<!-- container -->
 		<script>
 			var statusGroup = {
-                parentCount: 1,
-				passParent: 1,
-				failParent: 0,
+				passParent: 3,
+				failParent: 1,
 				fatalParent: 0,
 				errorParent: 0,
 				warningParent: 0,
 				skipParent: 0,
-				exceptionsParent: 0,
-				childCount: 0,
+				exceptionsParent: 1,
+				
 				passChild: 0,
 				failChild: 0,
 				fatalChild: 0,
@@ -281,7 +402,7 @@
 				infoChild: 0,
 				debugChild: 0,
 				exceptionsChild: 0,
-				grandChildCount: 0,
+				
 				passGrandChild: 0,
 				failGrandChild: 0,
 				fatalGrandChild: 0,
@@ -295,10 +416,10 @@
 		</script>
 		<script>
 			var timeline = {
-			        "productAvaliablityTest":13.286
+			        "VerifyTitle":0.057,"VerifymyStoreLogo":0.11,"loginTest":10.067,"loginTest":19.348
 			};
 		</script>
-		<script src='http://cdn.rawgit.com/extent-framework/extent-github-cdn/b65cd69/v3html/js/extent.js' type='text/javascript'></script>
+		<script src='http://cdn.rawgit.com/extent-framework/extent-github-cdn/master/v3html/js/extent.js' type='text/javascript'></script>
 		<script type='text/javascript'>
 			
             

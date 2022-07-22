@@ -10,3 +10,39 @@
 2022-07-22 10:30:02,509 - com.mystore.utility.Log -INFO - ====================verifyTotalPrice TEST START =====================
 2022-07-22 10:30:34,264 - com.mystore.utility.Log -INFO - ====================verifyTotalPrice TEST START =====================
 2022-07-22 10:31:19,609 - com.mystore.utility.Log -INFO - ====================End To End TEST START =====================
+2022-07-22 12:29:38,614 - com.mystore.utility.Log -INFO - ====================Verify Title TEST START =====================
+2022-07-22 12:29:38,634 - com.mystore.utility.Log -INFO - ====================Title TEST END =====================
+2022-07-22 12:30:18,043 - com.mystore.utility.Log -INFO - ====================LoginPageTest TEST START =====================
+2022-07-22 12:30:21,028 - com.mystore.utility.Log -INFO - Enter Username and Password
+2022-07-22 12:30:23,570 - com.mystore.utility.Log -INFO - Login Test Successful
+2022-07-22 12:30:23,570 - com.mystore.utility.Log -INFO - ====================LoginPageTest TEST END =====================
+2022-07-22 12:30:32,800 - com.mystore.utility.Log -INFO - ====================LoginPageTest TEST START =====================
+2022-07-22 12:30:38,452 - com.mystore.utility.Log -INFO - Enter Username and Password
+2022-07-22 12:30:50,014 - com.mystore.utility.Log -INFO - ====================Account Creation Page TEST START =====================
+2022-07-22 12:31:49,958 - com.mystore.utility.Log -INFO - ====================Search Result Page TEST START =====================
+2022-07-22 12:31:53,060 - com.mystore.utility.Log -INFO - ====================Search Result Page TEST END =====================
+2022-07-22 12:32:03,109 - com.mystore.utility.Log -INFO - ====================Add To Cart TEST START =====================
+2022-07-22 12:32:43,721 - com.mystore.utility.Log -INFO - ====================verifyTotalPrice TEST START =====================
+2022-07-22 12:33:09,278 - com.mystore.utility.Log -INFO - ====================verifyTotalPrice TEST START =====================
+2022-07-22 12:33:31,989 - com.mystore.utility.Log -INFO - ====================verifyTotalPrice TEST START =====================
+2022-07-22 12:34:02,144 - com.mystore.utility.Log -INFO - ====================End To End TEST START =====================
+2022-07-22 12:41:51,343 - com.mystore.utility.Log -INFO - ====================myStore Logo TEST START =====================
+2022-07-22 12:41:51,394 - com.mystore.utility.Log -INFO - ====================Verify Title TEST START =====================
+2022-07-22 12:41:51,402 - com.mystore.utility.Log -INFO - ====================Title TEST END =====================
+2022-07-22 12:41:51,475 - com.mystore.utility.Log -INFO - ====================myStore Logo TEST END =====================
+2022-07-22 12:41:55,506 - com.mystore.utility.Log -INFO - ====================myStore Logo TEST START =====================
+2022-07-22 12:42:15,722 - com.mystore.utility.Log -INFO - ====================Verify Title TEST START =====================
+2022-07-22 12:42:15,722 - com.mystore.utility.Log -INFO - ====================Title TEST END =====================
+2022-07-22 12:42:17,795 - com.mystore.utility.Log -INFO - ====================myStore Logo TEST START =====================
+2022-07-22 12:42:38,250 - com.mystore.utility.Log -INFO - ====================Verify Title TEST START =====================
+2022-07-22 12:42:38,254 - com.mystore.utility.Log -INFO - ====================Title TEST END =====================
+2022-07-22 12:46:19,338 - com.mystore.utility.Log -INFO - ====================Verify Title TEST START =====================
+2022-07-22 12:46:19,387 - com.mystore.utility.Log -INFO - ====================Title TEST END =====================
+2022-07-22 12:46:30,891 - com.mystore.utility.Log -INFO - ====================myStore Logo TEST START =====================
+2022-07-22 12:46:30,998 - com.mystore.utility.Log -INFO - ====================myStore Logo TEST END =====================
+2022-07-22 12:46:42,533 - com.mystore.utility.Log -INFO - ====================LoginPageTest TEST START =====================
+2022-07-22 12:46:47,053 - com.mystore.utility.Log -INFO - Enter Username and Password
+2022-07-22 12:46:52,598 - com.mystore.utility.Log -INFO - Login Test Successful
+2022-07-22 12:46:52,598 - com.mystore.utility.Log -INFO - ====================LoginPageTest TEST END =====================
+2022-07-22 12:47:01,502 - com.mystore.utility.Log -INFO - ====================LoginPageTest TEST START =====================
+2022-07-22 12:47:11,896 - com.mystore.utility.Log -INFO - Enter Username and Password
