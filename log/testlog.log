@@ -46,3 +46,11 @@
 2022-07-22 12:46:52,598 - com.mystore.utility.Log -INFO - ====================LoginPageTest TEST END =====================
 2022-07-22 12:47:01,502 - com.mystore.utility.Log -INFO - ====================LoginPageTest TEST START =====================
 2022-07-22 12:47:11,896 - com.mystore.utility.Log -INFO - Enter Username and Password
+2022-07-22 13:01:22,725 - com.mystore.utility.Log -INFO - ====================LoginPageTest TEST START =====================
+2022-07-22 13:01:29,336 - com.mystore.utility.Log -INFO - Enter Username and Password
+2022-07-22 13:01:32,535 - com.mystore.utility.Log -INFO - Login Test Successful
+2022-07-22 13:01:32,535 - com.mystore.utility.Log -INFO - ====================LoginPageTest TEST END =====================
+2022-07-22 13:01:48,865 - com.mystore.utility.Log -INFO - ====================LoginPageTest TEST START =====================
+2022-07-22 13:01:52,692 - com.mystore.utility.Log -INFO - Enter Username and Password
+2022-07-22 13:08:59,575 - com.mystore.utility.Log -INFO - ====================LoginPageTest TEST START =====================
+2022-07-22 13:09:22,311 - com.mystore.utility.Log -INFO - Enter Username and Password

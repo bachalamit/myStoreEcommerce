@@ -18,7 +18,8 @@
 			<class name="com.mystore.testscripts.AddtoCartTest" />
 			<class name="com.mystore.testscripts.OrderPageTest" />
 			<class name="com.mystore.testscripts.EndToEndTest" />
-	
+		
+				
 			
 		</classes>
 	</test> <!-- Test -->
