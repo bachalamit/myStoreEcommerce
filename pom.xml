@@ -80,7 +80,7 @@
 				<configuration>
 					<suiteXmlFiles>
 						<!-- TestNG suite XML files -->
-						<suiteXmlFile>${xmlFiles}</suiteXmlFile>
+						<suiteXmlFile>testng_all.xml</suiteXmlFile>
 					</suiteXmlFiles>
 				</configuration>
 			</plugin>
