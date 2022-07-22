@@ -1,0 +1,12 @@
+2022-07-22 10:24:56,004 [main] INFO com.mystore.utility.Log - ====================Verify Title TEST START =====================
+2022-07-22 10:24:56,052 [main] INFO com.mystore.utility.Log - ====================Title TEST END =====================
+2022-07-22 10:25:46,219 [main] INFO com.mystore.utility.Log - ====================LoginPageTest TEST START =====================
+2022-07-22 10:25:56,087 [main] INFO com.mystore.utility.Log - Enter Username and Password
+2022-07-22 10:26:39,573 [main] INFO com.mystore.utility.Log - ====================LoginPageTest TEST START =====================
+2022-07-22 10:26:45,860 [main] INFO com.mystore.utility.Log - Enter Username and Password
+2022-07-22 10:27:04,859 [main] INFO com.mystore.utility.Log - ====================Account Creation Page TEST START =====================
+2022-07-22 10:28:49,753 [main] INFO com.mystore.utility.Log - ====================Add To Cart TEST START =====================
+2022-07-22 10:29:22,767 [main] INFO com.mystore.utility.Log - ====================verifyTotalPrice TEST START =====================
+2022-07-22 10:30:02,509 [main] INFO com.mystore.utility.Log - ====================verifyTotalPrice TEST START =====================
+2022-07-22 10:30:34,264 [main] INFO com.mystore.utility.Log - ====================verifyTotalPrice TEST START =====================
+2022-07-22 10:31:19,609 [main] INFO com.mystore.utility.Log - ====================End To End TEST START =====================
