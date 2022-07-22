@@ -80,8 +80,11 @@
 				<configuration>
 					<suiteXmlFiles>
 						<!-- TestNG suite XML files -->
-						<suiteXmlFile>testng.xml</suiteXmlFile>
+						<suiteXmlFile>${xmlFiles}</suiteXmlFile>
 					</suiteXmlFiles>
+						 <systemPropertyVariables>
+            						<appURL>${url}</appURL>
+            			</systemPropertyVariables>
 				</configuration>
 			</plugin>
 
